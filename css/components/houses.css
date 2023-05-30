@@ -1,0 +1,88 @@
+.house {
+  background-color: #EAEEF0;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.house img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.house .info {
+  padding: 15px 20px;
+}
+
+.house .info .address {
+  display: flex;
+}
+
+.house .info > h3 {
+  margin: 0;
+  color: rgb(48, 48, 48);
+  font-size: 1em;
+}
+
+.house .address p {
+  margin: 0;
+  color: rgb(124, 124, 124);
+  font-size: 0.8em;
+}
+
+.house .address p:first-child {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.house .price {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.house .price h3 {
+  margin: 0;
+  color: rgb(34, 108, 255);
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.house .price p {
+  margin: 0;
+  color: rgb(163, 163, 163);
+  font-size: 0.7em;
+}
+
+.house .price h2 {
+  margin: 0;
+  color: white;
+  background-color: #99CD74;
+  font-size: .8em;
+  font-weight: normal;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.house .percentage {
+  background-color: white;
+  border-radius: 5px;
+  height: 4px;
+}
+
+.house .percentage .bar {
+  height: 4px;
+  background-color: #0D61E8;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.house .percentage.percent50 .bar {
+  width: 50%;
+}
+
+.house .percentage.percent80 .bar {
+  width: 80%;
+}

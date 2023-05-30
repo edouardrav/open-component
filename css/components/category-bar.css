@@ -1,0 +1,22 @@
+a.category-bar {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid rgb(237, 237, 237);
+  border-radius: 5px;
+  padding: 15px 20px;
+  color: rgb(190, 190, 190);
+  transition: .2s;
+  margin-bottom: 25px;
+}
+
+a.category-bar h2 {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+a.category-bar:hover {
+  color: rgb(142, 142, 142);
+  background-color: rgb(249, 249, 249);
+}
